@@ -1,0 +1,21 @@
+# Reviewed false alarms. Each line is file:rule:start-line.
+# A new secret on a different line still fails the scan.
+Tiltfile:bare-32-byte-hex:5
+evm/test/TransceiverStructs.t.sol:bare-32-byte-hex:135
+evm/test/TransceiverStructs.t.sol:bare-32-byte-hex:171
+evm/test/TransceiverStructs.t.sol:bare-32-byte-hex:175
+sdk/examples/src/consts.ts:generic-api-key:60
+sdk/examples/src/index.ts:evm-32-byte-hex:24
+sdk/examples/src/index.ts:evm-32-byte-hex:25
+sdk/examples/src/index.ts:evm-32-byte-hex:26
+sdk/examples/src/consts.ts:generic-api-key:10
+sdk/examples/src/consts.ts:generic-api-key:44
+sdk/route/__tests__/route.test.ts:generic-api-key:19
+sdk/definitions/__tests__/layout.test.ts:evm-32-byte-hex:34
+sdk/solana/__tests__/ntt.test.ts:generic-api-key:291
+evm/src/interfaces/IRateLimiterEvents.sol:evm-32-byte-hex:21
+evm/src/interfaces/IManagerBase.sol:evm-32-byte-hex:51
+evm/src/interfaces/IWormholeTransceiver.sol:evm-32-byte-hex:36
+evm/src/interfaces/INttManager.sol:evm-32-byte-hex:18
+evm/src/interfaces/IManagerBase.sol:evm-32-byte-hex:59
+evm/src/interfaces/IWormholeTransceiverState.sol:evm-32-byte-hex:36
