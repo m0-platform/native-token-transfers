@@ -38,3 +38,5 @@ evm/test/TransceiverStructs.t.sol:bare-32-byte-hex:24
 evm/test/libraries/Utils.sol:evm-32-byte-hex:13
 evm/test/wormhole/Governance.t.sol:evm-32-byte-hex:75
 solana/Anchor.toml:generic-api-key:10
+cli/test/sepolia-bsc.sh:generic-api-key:71
+cli/test/sepolia-bsc.sh:evm-32-byte-hex:63
